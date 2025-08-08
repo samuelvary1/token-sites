@@ -57,7 +57,7 @@ export default function Home() {
                 Download <strong>MetaMask</strong> and create your wallet.
               </li>
               <li>
-                Add the <strong>Ethereum Network</strong> (if it's not already set up).
+                Add the <strong>Ethereum Network</strong> (if it&apos;s not already set up).
               </li>
               <li>
                 Buy <strong>ETH</strong> and transfer it to MetaMask.
