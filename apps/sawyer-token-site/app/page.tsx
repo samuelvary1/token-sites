@@ -48,7 +48,7 @@ export default function Home() {
                 Download <strong>MetaMask</strong> and set up your wallet.
               </li>
               <li>
-                Add the <strong>Polygon Network</strong> (if it's not already added).
+                Add the <strong>Polygon Network</strong> (if it&apos;s not already added).
               </li>
               <li>
                 Buy <strong>POL</strong> (Polygon gas token) via a centralized exchange like KuCoin or Gate.io and send it to your MetaMask wallet.
