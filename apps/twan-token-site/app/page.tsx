@@ -32,7 +32,7 @@ export default function Home() {
             <p className="text-xs sm:text-sm mb-5 font-semibold text-[#2d2e2a] bg-[#fffbe9]/80 px-2 py-1.5 rounded shadow-sm inline-block text-center" style={{textShadow: '0 1px 6px #e6a15c'}}>A new community-driven token for art, experimentation, and brilliant audio.</p>
             <div className="flex flex-col gap-2 w-full">
               <a
-                href="https://dexscreener.com/polygon/0xbD63095C802ACcAa86e3eBe5cf7c45F7d79899B0"
+                href="https://dexscreener.com/ethereum/0x242646e0dfa9bf83bcf9dfdbb0772043fe8fc0954f801e7174befa6ce5304279"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#e6a15c] hover:bg-[#e6d6b8] text-[#2d2e2a] font-semibold px-4 py-1.5 rounded-lg shadow transition-colors border-2 border-[#2d2e2a] mx-auto text-sm"
@@ -51,7 +51,7 @@ export default function Home() {
           <div className="flex flex-col gap-5 flex-[2_1_0%] min-w-0 justify-center scale-90">
             <div className="w-full h-[288px] md:h-[378px] lg:h-[468px] rounded-xl overflow-hidden border-2 border-[#2d2e2a] shadow-lg bg-[#e6d6b8]">
               <iframe
-                src="https://dexscreener.com/polygon/0xbD63095C802ACcAa86e3eBe5cf7c45F7d79899B0"
+                src="https://dexscreener.com/ethereum/0x242646e0dfa9bf83bcf9dfdbb0772043fe8fc0954f801e7174befa6ce5304279"
                 title="TWAN Token Live Chart"
                 className="w-full h-full"
                 allowFullScreen
