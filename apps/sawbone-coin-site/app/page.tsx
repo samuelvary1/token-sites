@@ -16,7 +16,7 @@ export default function Home() {
         {/* Left card */}
         <div className="flex flex-col items-center rounded-2xl border-2 border-emerald-300 bg-amber-50/90 shadow-xl p-4">
           <h1 className="text-2xl md:text-3xl font-extrabold mb-3 text-emerald-700 drop-shadow">
-            SAWBONE (SAWB)
+            SAWBONE COIN (SAWB)
           </h1>
 
           <Image
