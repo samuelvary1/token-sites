@@ -44,6 +44,14 @@ export default function Home() {
               >
                 Explore SWYR NFTs
               </a>
+              <a
+                href="https://dapp.quickswap.exchange/swap/best/ETH/0xCa6059bB703E95B10688c56a09f5a76375f9CF47?chainId=137"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mb-2 bg-[#e2b86a] hover:bg-[#7eb3d6] text-[#3a2c1a] font-semibold px-5 py-2 rounded-lg shadow border-2 border-[#7eb3d6] transition-colors mx-auto"
+              >
+                Swap on QuickSwap
+              </a>
           </div>
           {/* Right: Chart and instructions */}
           <div className="flex flex-col gap-5 flex-[2_1_0%] min-w-0 justify-center scale-90">

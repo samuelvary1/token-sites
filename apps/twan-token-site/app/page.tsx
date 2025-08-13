@@ -40,6 +40,14 @@ export default function Home() {
                 View on DexScreener
               </a>
               <a
+                href="https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0xbD63095C802ACcAa86e3eBe5cf7c45F7d79899B0"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#2d2e2a] hover:bg-[#e6a15c] text-[#f7e7c1] font-semibold px-4 py-1.5 rounded-lg shadow transition-colors border-2 border-[#e6a15c] mx-auto text-sm"
+              >
+                Swap on Uniswap
+              </a>
+              <a
                 href="/nfts"
                 className="bg-[#4b5c4a] hover:bg-[#2d2e2a] text-[#f7e7c1] font-semibold px-4 py-1.5 rounded-lg shadow transition-colors border-2 border-[#e6a15c] mx-auto text-sm"
               >
