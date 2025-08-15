@@ -66,7 +66,8 @@ export default function Home() {
 
         {/* Right column: chart / CTA + how-to */}
         <div className="flex flex-col gap-5">
-          {/* Chart / CTA panel */}
+          {/* Chart / CTA panel hidden for now */}
+          {/*
           <div className="w-full h-[320px] md:h-[420px] rounded-xl overflow-hidden border-2 border-slate-900 shadow-xl bg-amber-50/90 flex items-center justify-center">
             {HAS_POOL ? (
               <iframe
@@ -94,6 +95,7 @@ export default function Home() {
               </div>
             )}
           </div>
+          */}
 
           {/* How to buy */}
           <section className="text-left bg-white/80 rounded-xl p-4 shadow-xl border-2 border-emerald-300">
