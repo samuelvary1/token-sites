@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     description: "The friendliest field medic on Solana.",
     images: ["/sawbone-preview.png"]
   },
-  icons: { icon: "/favicon.ico" }
+  icons: { icon: "/red_cross.png" }
 };
 
 export const viewport: Viewport = { themeColor: "#0f172a" };
