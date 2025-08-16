@@ -30,12 +30,12 @@ export default function Home() {
               </div>
             </div>
             <p className="text-sm sm:text-base mb-5 font-semibold text-[#3a2c1a] bg-[#fffbe9]/80 px-3 py-2 rounded shadow-sm inline-block text-center" style={{textShadow: '0 1px 6px #f7c873'}}>A community token for creators, collectors, and dogs who love tennis balls.</p>
-            <a
-              href="https://dexscreener.com/polygon/0xca6059bb703e95b10688c56a09f5a76375f9cf47"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mb-2 w-48 bg-[#7eb3d6] hover:bg-[#f7e1a0] text-[#3a2c1a] font-semibold px-5 py-2 rounded-lg shadow border-2 border-[#e2b86a] transition-colors mx-auto whitespace-nowrap flex items-center justify-center text-center"
-            >
+      <a
+        href="https://dexscreener.com/polygon/0xca6059bb703e95b10688c56a09f5a76375f9cf47"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mb-2 w-48 bg-[#7eb3d6] hover:bg-[#f7e1a0] text-[#3a2c1a] font-semibold px-5 py-2 rounded-lg shadow border-2 border-[#e2b86a] transition-colors mx-auto whitespace-nowrap flex items-center justify-center text-center"
+      >
               DexScreener
             </a>
 
