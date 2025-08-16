@@ -18,16 +18,18 @@ export default function Home() {
           {/* Left Column */}
           <div className="flex flex-col items-center md:items-start justify-center flex-[1_1_288px] max-w-full md:max-w-[340px] bg-[#fffbe9]/80 rounded-2xl shadow-lg border-2 border-[#e2b86a] p-3 md:p-5 scale-90">
             <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 text-[#7eb3d6] drop-shadow text-center">Sawyer Token (SWYR)</h1>
-            <div className="flex justify-center mb-3 w-full">
-              <Image
-                src="/sawyer-beach.png"
-                alt="Dog on the beach with ball"
-                width={234}
-                height={351}
-                className="rounded-2xl border-4 border-[#e2b86a] shadow-xl object-cover bg-[#f7e1a0] mx-auto md:mx-0"
-                priority
-              />
-            </div>
+<div className="flex justify-center mb-3 w-full">
+  <div className="relative w-[234px] aspect-square border-4 border-[#e2b86a] shadow-xl rounded-2xl overflow-hidden bg-[#f7e1a0]">
+    <Image
+      src="/sawyer-beach.png"
+      alt="Dog on the beach with ball"
+      fill
+      className="object-cover"
+      priority
+    />
+  </div>
+</div>
+
             <p className="text-sm sm:text-base mb-5 font-semibold text-[#3a2c1a] bg-[#fffbe9]/80 px-3 py-2 rounded shadow-sm inline-block text-center" style={{textShadow: '0 1px 6px #f7c873'}}>A community token for creators, collectors, and dogs who love tennis balls.</p>
             <a
               href="https://dexscreener.com/polygon/0xca6059bb703e95b10688c56a09f5a76375f9cf47"
