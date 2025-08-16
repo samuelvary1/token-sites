@@ -9,7 +9,7 @@ export default function AboutSawyer() {
           Sawyer Token ($SWYR) is a community-driven meme coin built in honor of a yellow lab who loves tennis balls, sandy beaches, and spreading joy.
         </p>
         <p className="text-sm">
-          Whether you're a fan of goofy dogs or grassroots crypto, Sawyer is here to make you smile. Jump in and become part of the friendliest token on the blockchain.
+          Whether you&apos;re a fan of goofy dogs or grassroots crypto, Sawyer is here to make you smile. Jump in and become part of the friendliest token on the blockchain.
         </p>
       </div>
     </main>
