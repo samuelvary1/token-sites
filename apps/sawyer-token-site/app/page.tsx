@@ -37,6 +37,7 @@ export default function Home() {
             >
               DexScreener
             </a>
+
             <a
               href="https://dapp.quickswap.exchange/swap/best/ETH/0xCa6059bB703E95B10688c56a09f5a76375f9CF47?chainId=137"
               target="_blank"
@@ -45,6 +46,7 @@ export default function Home() {
             >
               Buy on QuickSwap
             </a>
+
             <a
               href="https://polygonscan.com/token/0xca6059bb703e95b10688c56a09f5a76375f9cf47"
               target="_blank"
@@ -53,6 +55,23 @@ export default function Home() {
             >
               View Contract
             </a>
+
+            <a
+              href="https://x.com/sawyer_token"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mb-2 w-48 bg-[#1DA1F2] hover:bg-[#0d8ddb] text-white font-semibold px-5 py-2 rounded-lg shadow border-2 border-[#3a2c1a] transition-colors mx-auto whitespace-nowrap flex items-center justify-center text-center"
+            >
+              🐾 Twitter
+            </a>
+
+            <a
+              href="/about"
+              className="mb-2 w-48 bg-white/80 hover:bg-white text-[#3a2c1a] font-semibold px-5 py-2 rounded-lg shadow border-2 border-[#3a2c1a] transition-colors mx-auto whitespace-nowrap flex items-center justify-center text-center"
+            >
+              About Sawyer
+            </a>
+
           </div>
 
           {/* Right Column */}

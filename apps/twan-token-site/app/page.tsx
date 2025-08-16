@@ -31,6 +31,7 @@ export default function Home() {
             <p className="text-sm sm:text-base mb-5 font-semibold text-[#2d2e2a] bg-white/70 px-3 py-2 rounded shadow-sm inline-block text-center" style={{ textShadow: '0 1px 6px #4b5c4a' }}>
               A new community-driven token for art, experimentation, and brilliant audio.
             </p>
+            {/* Existing Buttons */}
             <a
               href="https://dexscreener.com/ethereum/0x242646e0dfa9bf83bcf9dfdbb0772043fe8fc0954f801e7174befa6ce5304279"
               target="_blank"
@@ -63,6 +64,25 @@ export default function Home() {
             >
               View Contract
             </a>
+
+            {/* Twitter Button */}
+            <a
+              href="https://x.com/twan_token"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mb-2 w-48 bg-[#1DA1F2] hover:bg-[#0d8ddb] text-white font-semibold px-5 py-2 rounded-lg shadow border-2 border-[#2d2e2a] transition-colors mx-auto whitespace-nowrap flex items-center justify-center text-center"
+            >
+              🐦 Twitter
+            </a>
+
+            {/* About Page Button */}
+            <a
+              href="/about"
+              className="mb-2 w-48 bg-white/80 hover:bg-white text-[#2d2e2a] font-semibold px-5 py-2 rounded-lg shadow border-2 border-[#2d2e2a] transition-colors mx-auto whitespace-nowrap flex items-center justify-center text-center"
+            >
+              About TWAN
+            </a>
+
           </div>
 
           {/* Right Column */}

@@ -36,6 +36,7 @@ export default function Home() {
             <p className="text-sm sm:text-base mb-5 font-semibold text-slate-900 bg-white/70 px-3 py-2 rounded shadow-sm inline-block text-center" style={{ textShadow: '0 1px 6px #059669' }}>
               A meme coin for medics, meme freaks, and military buffs. The doc is in.
             </p>
+
             <a
               href={PUMPFUN}
               target="_blank"
@@ -44,6 +45,7 @@ export default function Home() {
             >
               Buy on Pump.fun
             </a>
+
             <a
               href="https://solscan.io/token/HvhkPGGjByxnXzR8eWLqTn8LEY9DS8J3y8TF9ENopump"
               target="_blank"
@@ -52,6 +54,7 @@ export default function Home() {
             >
               View Contract
             </a>
+
             {HAS_POOL ? (
               <a
                 href={DEXSCREENER}
@@ -66,6 +69,22 @@ export default function Home() {
                 DexScreener after Raydium pool
               </div>
             )}
+
+            <a
+              href="https://x.com/sawbone_coin"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mb-2 w-48 bg-[#1DA1F2] hover:bg-[#0d8ddb] text-white font-semibold px-5 py-2 rounded-lg shadow border-2 border-slate-900 transition-colors mx-auto whitespace-nowrap flex items-center justify-center text-center"
+            >
+              🩺 Twitter
+            </a>
+
+            <a
+              href="/about"
+              className="mb-2 w-48 bg-white/80 hover:bg-white text-slate-900 font-semibold px-5 py-2 rounded-lg shadow border-2 border-slate-900 transition-colors mx-auto whitespace-nowrap flex items-center justify-center text-center"
+            >
+              About Sawbone
+            </a>
           </div>
 
           {/* Right Column */}
@@ -79,6 +98,7 @@ export default function Home() {
                 <li>Raydium pool + chart coming soon.</li>
               </ol>
             </section>
+
             <div className="w-full h-[288px] md:h-[378px] lg:h-[468px] rounded-xl overflow-hidden border-2 border-emerald-300 shadow-lg bg-amber-100">
               {HAS_POOL ? (
                 <iframe
