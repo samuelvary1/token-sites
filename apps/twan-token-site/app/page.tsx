@@ -97,14 +97,20 @@ export default function Home() {
                 <li>Hold, trade, or buy TWAN-only NFTs on the marketplace coming soon.</li>
               </ol>
             </section>
-            <div className="w-full h-[288px] md:h-[378px] lg:h-[468px] rounded-xl overflow-hidden border-2 border-[#e6a15c] shadow-lg bg-[#e6d6b8]">
-              <iframe
-                src="https://dexscreener.com/ethereum/0x242646e0dfa9bf83bcf9dfdbb0772043fe8fc0954f801e7174befa6ce5304279"
-                title="TWAN Token Live Chart"
-                className="w-full h-full"
-                allowFullScreen
-                style={{ background: '#e6d6b8', minHeight: '320px' }}
-              ></iframe>
+            <div className="w-full h-[288px] md:h-[378px] lg:h-[468px] rounded-xl overflow-hidden border-2 border-[#e6a15c] shadow-lg bg-[#e6d6b8] flex items-center justify-center px-6 text-center">
+              <div>
+                <p className="text-[#4b5c4a] text-sm md:text-base font-semibold mb-3">
+                  A live TWAN price chart will be available here once DexScreener is active.
+                </p>
+                <a
+                  href="https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0xbD63095C802ACcAa86e3eBe5cf7c45F7d79899B0"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-[#e6a15c] hover:bg-[#4b5c4a] text-[#2d2e2a] font-semibold px-4 py-2 rounded-lg shadow border-2 border-[#2d2e2a] transition-colors"
+                >
+                  Open in Uniswap
+                </a>
+              </div>
             </div>
           </div>
         </div>

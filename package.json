@@ -31,20 +31,6 @@
   "engines": {
     "node": ">=18"
   },
-  "lint-staged": {
-  "**/*.{js,ts,jsx,tsx}": [
-    "eslint --fix",
-    "prettier --write"
-  ],
-  "**/*.{json,css,md}": [
-    "prettier --write"
-  ]
-},
-"scripts": {
-  "prepare": "husky install",
-  "lint": "eslint . --ext js,ts,jsx,tsx",
-  "format": "prettier --write ."
-},
   "packageManager": "npm@10.8.2",
   "workspaces": [
     "apps/*",
