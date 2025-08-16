@@ -94,7 +94,18 @@ export default function Home() {
               <ol className="list-decimal list-inside space-y-1 text-sm text-slate-900">
                 <li>Install <strong>Phantom</strong> and connect to the Solana Mainnet.</li>
                 <li>Fund your wallet with a small amount of <strong>SOL</strong>.</li>
-                <li>Click the Pump.fun link above to buy <strong>SAWB</strong> on the bonding curve.</li>
+                <li>
+                  Click the{" "}
+                  <a
+                    href="https://pump.fun/coin/HvhkPGGjByxnXzR8eWLqTn8LEY9DS8J3y8TF9ENopump"
+                    className="text-blue-600 underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Pump.fun
+                  </a>{" "}
+                  link to buy <strong>SAWB</strong> on the bonding curve.
+                </li>
                 <li>Raydium pool + chart coming soon.</li>
               </ol>
             </section>
