@@ -71,7 +71,7 @@ export default function Home() {
               <h2 className="text-lg md:text-xl font-semibold mb-2 text-[#4b5c4a]">How to Buy TWAN</h2>
               <ol className="list-decimal list-inside space-y-1 text-sm text-[#2d2e2a]">
                 <li>Download <strong>MetaMask</strong> and create your wallet.</li>
-                <li>Add the <strong>Ethereum Network</strong> (if it's not already set up).</li>
+                <li>Add the <strong>Ethereum Network</strong> (if not already added).</li>
                 <li>Buy <strong>ETH</strong> and transfer it to MetaMask.</li>
                 <li>Follow the <a href="https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0xbD63095C802ACcAa86e3eBe5cf7c45F7d79899B0" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">Uniswap</a> link to swap <strong>ETH</strong> for <strong>TWAN</strong>.</li>
                 <li>Hold, trade, or buy TWAN-only NFTs on the marketplace coming soon.</li>
