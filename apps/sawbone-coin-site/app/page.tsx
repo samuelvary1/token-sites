@@ -36,7 +36,6 @@ export default function Home() {
             <p className="text-sm sm:text-base mb-5 font-semibold text-slate-900 bg-white/70 px-3 py-2 rounded shadow-sm inline-block text-center" style={{ textShadow: '0 1px 6px #059669' }}>
               A meme coin for medics, meme freaks, and military buffs. The doc is in.
             </p>
-
             <a
               href={PUMPFUN}
               target="_blank"
@@ -71,6 +70,13 @@ export default function Home() {
             )}
 
             <a
+              href="/about"
+              className="mb-2 w-48 bg-white/80 hover:bg-white text-slate-900 font-semibold px-5 py-2 rounded-lg shadow border-2 border-slate-900 transition-colors mx-auto whitespace-nowrap flex items-center justify-center text-center"
+            >
+              About Sawbone
+            </a>
+
+            <a
               href="https://x.com/sawbone_coin"
               target="_blank"
               rel="noopener noreferrer"
@@ -79,12 +85,6 @@ export default function Home() {
               🩺 Twitter
             </a>
 
-            <a
-              href="/about"
-              className="mb-2 w-48 bg-white/80 hover:bg-white text-slate-900 font-semibold px-5 py-2 rounded-lg shadow border-2 border-slate-900 transition-colors mx-auto whitespace-nowrap flex items-center justify-center text-center"
-            >
-              About Sawbone
-            </a>
           </div>
 
           {/* Right Column */}

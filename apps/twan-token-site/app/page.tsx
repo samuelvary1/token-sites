@@ -48,6 +48,7 @@ export default function Home() {
             >
               Buy on Uniswap
             </a>
+
             <a
               href="https://app.uniswap.org/positions/v4/ethereum/46924"
               target="_blank"
@@ -56,6 +57,7 @@ export default function Home() {
             >
               View Liquidity Pool
             </a>
+
             <a
               href="https://etherscan.io/token/0xbD63095C802ACcAa86e3eBe5cf7c45F7d79899B0"
               target="_blank"
@@ -65,7 +67,13 @@ export default function Home() {
               View Contract
             </a>
 
-            {/* Twitter Button */}
+            <a
+              href="/about"
+              className="mb-2 w-48 bg-white/80 hover:bg-white text-[#2d2e2a] font-semibold px-5 py-2 rounded-lg shadow border-2 border-[#2d2e2a] transition-colors mx-auto whitespace-nowrap flex items-center justify-center text-center"
+            >
+              About TWAN
+            </a>
+
             <a
               href="https://x.com/twan_token"
               target="_blank"
@@ -73,14 +81,6 @@ export default function Home() {
               className="mb-2 w-48 bg-[#1DA1F2] hover:bg-[#0d8ddb] text-white font-semibold px-5 py-2 rounded-lg shadow border-2 border-[#2d2e2a] transition-colors mx-auto whitespace-nowrap flex items-center justify-center text-center"
             >
               🐦 Twitter
-            </a>
-
-            {/* About Page Button */}
-            <a
-              href="/about"
-              className="mb-2 w-48 bg-white/80 hover:bg-white text-[#2d2e2a] font-semibold px-5 py-2 rounded-lg shadow border-2 border-[#2d2e2a] transition-colors mx-auto whitespace-nowrap flex items-center justify-center text-center"
-            >
-              About TWAN
             </a>
 
           </div>
