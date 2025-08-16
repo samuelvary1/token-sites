@@ -32,14 +32,14 @@ export default function Home() {
               A new community-driven token for art, experimentation, and brilliant audio.
             </p>
             {/* Existing Buttons */}
-            <a
+            {/* <a
               href="https://dexscreener.com/ethereum/0x242646e0dfa9bf83bcf9dfdbb0772043fe8fc0954f801e7174befa6ce5304279"
               target="_blank"
               rel="noopener noreferrer"
               className="mb-2 w-48 bg-[#7eb3d6] hover:bg-[#e6a15c] text-[#2d2e2a] font-semibold px-5 py-2 rounded-lg shadow border-2 border-[#e6a15c] transition-colors mx-auto whitespace-nowrap flex items-center justify-center text-center"
             >
               DexScreener
-            </a>
+            </a> */}
             <a
               href="https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0xbD63095C802ACcAa86e3eBe5cf7c45F7d79899B0"
               target="_blank"
