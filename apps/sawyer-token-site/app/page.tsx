@@ -45,7 +45,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="mb-2 w-48 bg-[#7eb3d6] hover:bg-[#f7e1a0] text-[#3a2c1a] font-semibold px-5 py-2 rounded-lg shadow border-2 border-[#e2b86a] transition-colors mx-auto whitespace-nowrap flex items-center justify-center text-center"
             >
-              DexScreener
+              View Chart
             </a>
 
             <a
@@ -86,15 +86,20 @@ export default function Home() {
                 <li>Explore NFTs, rewards, and more soon.</li>
               </ol>
             </section>
-            <div className="w-full h-[288px] md:h-[378px] lg:h-[468px] rounded-xl overflow-hidden border-2 border-[#e2b86a] shadow-lg bg-[#f7e1a0]">
-              <iframe
-                src="https://dexscreener.com/polygon/0xca6059bb703e95b10688c56a09f5a76375f9cf47"
-                title="Sawyer Token Live Chart"
-                className="w-full h-full"
-                allowFullScreen
-                style={{ background: '#f7e1a0', minHeight: '320px' }}
-              ></iframe>
-            </div>
+
+            {/* Placeholder chart box styled to match other token sites */}
+            <section className="w-full h-[288px] md:h-[378px] lg:h-[468px] rounded-xl border-2 border-[#e2b86a] shadow-lg bg-gradient-to-br from-[#f7e1a0] via-white to-[#f7e1a0] flex flex-col items-center justify-center text-center relative overflow-hidden">
+              <div className="absolute inset-0 opacity-10 bg-[url('/fake-chart-grid.svg')] bg-cover" />
+              <p className="text-[#3a2c1a] text-lg font-semibold relative z-10">📉 Live Chart Coming Soon</p>
+              <a
+                href="https://dexscreener.com/polygon/0xca6059bb703e95b10688c56a09f5a76375f9cf47"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-block bg-[#7eb3d6] hover:bg-[#f7e1a0] text-[#3a2c1a] font-semibold px-5 py-2 rounded-lg shadow border-2 border-[#e2b86a] transition-colors relative z-10"
+              >
+                View on DexScreener
+              </a>
+            </section>
           </div>
         </div>
       </main>
