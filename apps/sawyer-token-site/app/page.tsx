@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import FactsCard from "../components/FactsCard";
 
 export default function Home() {
   return (
@@ -87,18 +88,31 @@ export default function Home() {
               </ol>
             </section>
 
-            {/* Placeholder chart box styled to match other token sites */}
-            <section className="w-full h-[288px] md:h-[378px] lg:h-[468px] rounded-xl border-2 border-[#e2b86a] shadow-lg bg-gradient-to-br from-[#f7e1a0] via-white to-[#f7e1a0] flex flex-col items-center justify-center text-center relative overflow-hidden">
-              <p className="text-[#3a2c1a] text-lg font-semibold relative z-10">📉 Live Chart Coming Soon</p>
+            <section className="w-full h-[378px] lg:h-[468px] rounded-xl border-2 border-[#e2b86a] shadow-lg bg-gradient-to-br from-[#f7e1a0] via-white to-[#f7e1a0] flex flex-col items-center justify-center text-center relative overflow-hidden px-4">
+              <p className="text-[#3a2c1a] text-lg font-semibold mb-6">
+                📉 Live Chart Coming Soon
+              </p>
+            {/* 
+              <FactsCard
+                name="Sawyer Token"
+                symbol="SWYR"
+                price="$0.0021"
+                marketCap="$2,100"
+                supply="1,000,000"
+                chain="Polygon"
+              /> */}
+
               <a
                 href="https://dexscreener.com/polygon/0xca6059bb703e95b10688c56a09f5a76375f9cf47"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-4 inline-block bg-[#7eb3d6] hover:bg-[#f7e1a0] text-[#3a2c1a] font-semibold px-5 py-2 rounded-lg shadow border-2 border-[#e2b86a] transition-colors relative z-10"
+                className="mt-6 px-5 py-2 text-[#3a2c1a] font-semibold rounded-lg shadow border-2 border-[#e2b86a] bg-[#7eb3d6] hover:bg-[#f7e1a0] transition-colors"
               >
                 View on DexScreener
               </a>
             </section>
+
+
           </div>
         </div>
       </main>
