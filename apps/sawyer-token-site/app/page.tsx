@@ -82,7 +82,7 @@ export default function Home() {
                 <li>Download <strong>MetaMask</strong> and set up your wallet.</li>
                 <li>Add the <strong>Polygon Network</strong> (if not already added).</li>
                 <li>Buy <strong>POL</strong> (Polygon gas token) and send to MetaMask.</li>
-                <li>Go to <a href="https://dapp.quickswap.exchange/swap/best/ETH/0xCa6059bB703E95B10688c56a09f5a76375f9CF47?chainId=137" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">QuickSwap</a> and use this link to swap <strong>ETH</strong> for <strong>SWYR</strong>.</li>
+                <li>Go to <a href="https://dapp.quickswap.exchange/swap/v3/ETH/0xCa6059bB703E95B10688c56a09f5a76375f9CF47?chainId=137" className="text-blue-600 underline" target="_blank" rel="noopener noreferrer">QuickSwap</a> and use this link to swap <strong>ETH</strong> for <strong>SWYR</strong>.</li>
                 <li>Explore NFTs, rewards, and more soon.</li>
               </ol>
             </section>
